@@ -116,5 +116,3 @@ mutation {
 - Integrate **error logging** and monitoring for production.
 
 ---
-
-Feel free to adapt this README as-needed for your workflow!
