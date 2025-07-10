@@ -1,0 +1,8 @@
+Django==5.2.4
+strawberry-graphql[debug-server]==0.275.5
+strawberry-graphql[channels]==0.275.5
+strawberry-graphql-django==0.62.0
+aiodataloader==0.4.2
+channels==4.2.2
+asgiref==3.9.1
+uvicorn==0.35.0
