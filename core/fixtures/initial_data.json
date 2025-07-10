@@ -1,0 +1,34 @@
+[
+  {
+    "model": "core.user",
+    "pk": "u_123",
+    "fields": {
+      "username": "alice",
+      "plan": "HOBBY"
+    }
+  },
+  {
+    "model": "core.user",
+    "pk": "u_456",
+    "fields": {
+      "username": "bob",
+      "plan": "PRO"
+    }
+  },
+  {
+    "model": "core.deployedapp",
+    "pk": "app_abc",
+    "fields": {
+      "owner": "u_123",
+      "active": true
+    }
+  },
+  {
+    "model": "core.deployedapp",
+    "pk": "app_xyz",
+    "fields": {
+      "owner": "u_456",
+      "active": false
+    }
+  }
+]

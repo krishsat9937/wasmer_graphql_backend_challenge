@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+dist/
+build/
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Node modules (if you ever add a frontend)
+node_modules/
+
+# Git internals
+.git/
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Environment / virtualenv
+env/
+venv/
+.venv/
+
+# Database files
+*.sqlite3
+
+# Jupyter notebooks
+*.ipynb
+
+# Text files (e.g. notes, scratch)
+*.txt
+
+# Models folder (if you keep generated/exported models here)
+models/
+
+# Misc
+*.egg-info/
+*.egg
+*.eggs/
