@@ -23,24 +23,18 @@ This repository contains an **async**, **Relay-compatible** GraphQL API built wi
 
 ### Installation
 
-1. **Clone the repository**  
-   ```bash
-   git clone <YOUR_REPO_URL>
-   cd <REPO_NAME>
-   ```
-
-2. **Create & activate a virtual environment**  
+1. **Create & activate a virtual environment**  
    ```bash
    python3.11 -m venv venv
    source venv/bin/activate
    ```
 
-3. **Install dependencies**  
+2. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run migrations & load fixtures**  
+3. **Run migrations & load fixtures**  
    ```bash
    python manage.py migrate
    python manage.py loaddata core/fixtures/initial_data.json
